@@ -41,21 +41,43 @@ Prior research involved investigating biologically-inspired methods to computing
 
 This work was funded by a NASA Space Technology Research Fellowship from 2012--2016, through BU's Center for Computational Neuroscience and Neural Technology (CompNet) in 2011, with a Dean's Fellowship in 2010, and for my collaborators through the NSF.
 
-#### Publications
-* S. Eldridge., T. Unger, M. Sahaya Louis, A. Waterland, M. Seltzer, J. Appavoo, and A. Joshi, _Neural Networks as Function Primitives: Software/Hardware Support with X-FILES/DANA_, Boston Area Architecture Workshop (BARC) 2016. [[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/barc2016-eldridge-paper.pdf)] [[&nbsp;presentation&nbsp;](http://people.bu.edu/schuye/files/barc2016-eldridge-presentation.pdf)]
-[[&nbsp;poster&nbsp;](http://people.bu.edu/schuye/files/barc2016-eldridge-poster.pdf)]
+#### Conference Publications
 * S. Eldridge, A. Waterland, M. Seltzer, J. Appavoo, and A. Joshi,
 _Towards General-Purpose Neural Network Computing_, Parallel Architectures and Compilation Techniques (PACT) 2015.
 [[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/pact2015-eldridge-paper.pdf)] [[&nbsp;presentation&nbsp;](http://people.bu.edu/schuye/files/pact2015-eldridge-presentation.pdf)]
-* S. Eldridge and A. Joshi,
-_Exploiting Hidden Layer Modular Redundancy for Fault-Tolerance in Neural Network Accelerators_, Boston Area Architecture Workshop (BARC) 2015. [[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/barc2015-eldridge-paper.pdf)] [[&nbsp;presentation&nbsp;](http://people.bu.edu/schuye/files/barc2015-eldridge-presentation.pdf)]
-* J. Appavoo, A. Waterland, K. Zhao, S. Eldridge, A. Joshi, and M. Seltzer, _Programmable Smart Machines: A Hybrid Neuromorphic Approach to General Purpose Computation_, Workshop on Neuromorphic Architectures (NeuroArch) at 41st International Symposium on Computer Architecture (ISCA) 2014. [[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/appavoo-neuroarch-2014.pdf)]
 * S. Eldridge, F. Raudies, D. Zou, and A. Joshi, _Neural Network-Based Accelerators for Transcendental Function Approximation_, Great Lakes Symposium on VLSI (GLSVLSI) 2014. [[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/glsvlsi2014-eldridge.pdf)] [[&nbsp;presentation&nbsp;](http://people.bu.edu/schuye/files/glsvlsi2014-eldridge-presentation.pdf)]
-* F. Raudies, S. Eldridge, A. Joshi, and M. Versace, _Learning to Navigate in a Virtual World Using Optic Flow and Stereo Disparity Signals_, Artificial Life and Robotics, 19:2 (2014). [[&nbsp;paper&nbsp;](http://link.springer.com/article/10.1007/s10015-014-0153-1)]
-* S. Eldridge, F. Raudies, and A. Joshi, _Approximate Computation using Neuralized FPU_, Brain-Inspired Computing (BIC) Workshop at 40th International Symposium on Computer Architecture (ISCA) 2013. [[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/approx-fpu-bic2013.pdf)]
+
+#### Journal Publications
+* F. Raudies, S. Eldridge, A. Joshi, and M. Versace,
+_Learning to Navigate in a Virtual World Using Optic Flow and Stereo Disparity Signals_,
+Artificial Life and Robotics, 19:2 (2014).
+[[&nbsp;paper&nbsp;](http://link.springer.com/article/10.1007/s10015-014-0153-1)]
+
+#### Workshop Presentations and Posters
+* S. Eldridge, Dong, H., Unger, T., Sahaya Louis, M., Delshad Tehrani, L., Appavoo, J., and Joshi, A.
+_X-FILES/DANA: RISC-V Hardware/Software for Neural Networks_,
+Fourth RISC-V Workshop 2016.
+[[&nbsp;poster&nbsp;](http://people.bu.edu/schuye/files/riscv2016-eldridge-poster.pdf)]
+* S. Eldridge, Sahaya Louis, M., Unger, T., Appavoo, J., and Joshi, A.
+_Learning-on-chip using Fixed Point Arithmetic for Neural Network Accelerators_,
+Design Automation Conference (DAC) 2016.
+[[&nbsp;poster&nbsp;](http://people.bu.edu/schuye/files/dac2016-eldridge-poster.pdf)]
+* S. Eldridge., T. Unger, M. Sahaya Louis, A. Waterland, M. Seltzer, J. Appavoo, and A. Joshi,
+_Neural Networks as Function Primitives: Software/Hardware Support with X-FILES/DANA_,
+Boston Area Architecture Workshop (BARC) 2016.
+[[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/barc2016-eldridge-paper.pdf)] [[&nbsp;presentation&nbsp;](http://people.bu.edu/schuye/files/barc2016-eldridge-presentation.pdf)]
+[[&nbsp;poster&nbsp;](http://people.bu.edu/schuye/files/barc2016-eldridge-poster.pdf)]
+* S. Eldridge and A. Joshi,
+_Exploiting Hidden Layer Modular Redundancy for Fault-Tolerance in Neural Network Accelerators_,
+Boston Area Architecture Workshop (BARC) 2015. [[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/barc2015-eldridge-paper.pdf)] [[&nbsp;presentation&nbsp;](http://people.bu.edu/schuye/files/barc2015-eldridge-presentation.pdf)]
+* J. Appavoo, A. Waterland, K. Zhao, S. Eldridge, A. Joshi, and M. Seltzer,
+_Programmable Smart Machines: A Hybrid Neuromorphic Approach to General Purpose Computation_,
+Workshop on Neuromorphic Architectures (NeuroArch) at 41st International Symposium on Computer Architecture (ISCA) 2014. [[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/appavoo-neuroarch-2014.pdf)]
+* S. Eldridge, F. Raudies, and A. Joshi,
+_Approximate Computation using Neuralized FPU_,
+Brain-Inspired Computing (BIC) Workshop at 40th International Symposium on Computer Architecture (ISCA) 2013. [[&nbsp;paper&nbsp;](http://people.bu.edu/schuye/files/approx-fpu-bic2013.pdf)]
 
 #### Patents and Patent Applications
-
 * V. Gopal, J. D. Guilford, S. Eldridge, G. M. Wolrich, E. Ozturk, W. K. Feghali, _Digest generation_, US Patent Application 13/995,236, 2011. [[&nbsp;patent  application&nbsp;](https://www.google.com/patents/US20130290285)]
 
 --------------------------------------------------------------------------------
