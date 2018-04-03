@@ -42,15 +42,15 @@ Here's a [CV](schuyler-eldridge-cv.pdf).
 
 * Ramon Bertran, Pradip Bose, David M. Brooks, Jeff Burns, Alper Buyuktosunoglu, Nandhini Chandramoorthy, Eric Cheng, Martin Cochet, Schuyler Eldridge, Daniel Friedman, Hans M. Jacobson, Rajiv V. Joshi, Subhasish Mitra, Robert K. Montoye, Arun Paidimarri, Pritish Parida, Kevin Skadron, Mircea Stan, Karthik Swaminathan, Augusto Vega, Swagath Venkataramani, Christos Vezyrtzis, Gu-Yeon Wei, John-David Wellman, and Matthew M. Ziegler, _Very Low Voltage (VLV) Design_, in: International Conference on Computer Design (ICCD) 2017. [[paper](https://doi.org/10.1109/ICCD.2017.105)]
 
-* S. Eldridge, A. Waterland, M. Seltzer, J. Appavoo, and A. Joshi,
+* Schuyler Eldridge, Amos Waterland, Margo Seltzer, Jonathan Appavoo, and Ajay Joshi,
 _Towards General-Purpose Neural Network Computing_, Parallel Architectures and Compilation Techniques (PACT) 2015.
 [[paper](http://people.bu.edu/schuye/files/pact2015-eldridge-paper.pdf)] [[presentation](http://people.bu.edu/schuye/files/pact2015-eldridge-presentation.pdf)]
 
-* S. Eldridge and A. Joshi,
+* Schuyler Eldridge and Ajay Joshi,
 _Exploiting Hidden Layer Modular Redundancy for Fault-Tolerance in Neural Network Accelerators_,
 Boston Area Architecture Workshop (BARC) 2015. [[paper](http://people.bu.edu/schuye/files/barc2015-eldridge-paper.pdf)] [[presentation](http://people.bu.edu/schuye/files/barc2015-eldridge-presentation.pdf)]
 
-* S. Eldridge, F. Raudies, D. Zou, and A. Joshi, _Neural Network-Based Accelerators for Transcendental Function Approximation_, Great Lakes Symposium on VLSI (GLSVLSI) 2014. [[paper](http://people.bu.edu/schuye/files/glsvlsi2014-eldridge.pdf)] [[presentation](http://people.bu.edu/schuye/files/glsvlsi2014-eldridge-presentation.pdf)]
+* Schuyler Eldridge, Florian Raudies, David Zou, and Ajay Joshi, _Neural Network-Based Accelerators for Transcendental Function Approximation_, Great Lakes Symposium on VLSI (GLSVLSI) 2014. [[paper](http://people.bu.edu/schuye/files/glsvlsi2014-eldridge.pdf)] [[presentation](http://people.bu.edu/schuye/files/glsvlsi2014-eldridge-presentation.pdf)]
 
 #### Demonstrations
 
@@ -59,7 +59,7 @@ Boston Area Architecture Workshop (BARC) 2015. [[paper](http://people.bu.edu/sch
 #### Journal Publications
 * Leila Delshadtehrani, Schuyler Eldridge, Sadullah Canakci, Manuel Egele, and, Ajay Joshi, _Nile: A Programmable Monitoring Coprocessor_, Computer Architecture Letters, 2018. [[paper](https://doi.org/10.1109/LCA.2017.2784416)]
 
-* F. Raudies, S. Eldridge, A. Joshi, and M. Versace,
+* Florian Raudies, Schuyler Eldridge, Ajay Joshi, and Massimiliano Versace,
 _Learning to Navigate in a Virtual World Using Optic Flow and Stereo Disparity Signals_,
 Artificial Life and Robotics, 19:2 (2014).
 [[paper](http://link.springer.com/article/10.1007/s10015-014-0153-1)]
@@ -67,27 +67,27 @@ Artificial Life and Robotics, 19:2 (2014).
 #### Workshop Presentations and Posters
 * Schuyler Eldridge, Ramon Bertran, Alper Buyuktosunoglu, and Pradip Bose, _MicroProbe: An Open Source Microbenchmark Generator Ported to the RISC-V ISA_, in: 7th RISC-V Workshop 2017. [[presentation](https://content.riscv.org/wp-content/uploads/2017/12/Tue1424-riscv-microprobe-presentation.pdf)] [[video](https://www.youtube.com/watch?v=avXda-Zjro0)]
 
-* S. Eldridge, Dong, H., Unger, T., Sahaya Louis, M., Delshad Tehrani, L., Appavoo, J., and Joshi, A.
+* Schuyler Eldridge, Thomas Unger, Marcia Sahaya Louis, Margo Seltzer, Jonathan Appavoo, and Ajay Joshi,
 _X-FILES/DANA: RISC-V Hardware/Software for Neural Networks_,
 Fourth RISC-V Workshop 2016.
 [[poster](http://people.bu.edu/schuye/files/riscv2016-eldridge-poster.pdf)]
 
-* S. Eldridge, Sahaya Louis, M., Unger, T., Appavoo, J., and Joshi, A.
+* Schuyler Eldridge, Marcia Sahaya Louis, Thomas Unger, Jonathan Appavoo, and Ajay Joshi,
 _Learning-on-chip using Fixed Point Arithmetic for Neural Network Accelerators_,
 Design Automation Conference (DAC) 2016.
 [[poster](http://people.bu.edu/schuye/files/dac2016-eldridge-poster.pdf)]
 
-* S. Eldridge., T. Unger, M. Sahaya Louis, A. Waterland, M. Seltzer, J. Appavoo, and A. Joshi,
+* Schuyler Eldridge, Thomas Unger, Marcia Sahaya Louis, Margo Seltzer, Jonathan Appavoo, and Ajay Joshi,
 _Neural Networks as Function Primitives: Software/Hardware Support with X-FILES/DANA_,
 Boston Area Architecture Workshop (BARC) 2016.
 [[paper](http://people.bu.edu/schuye/files/barc2016-eldridge-paper.pdf)] [[presentation](http://people.bu.edu/schuye/files/barc2016-eldridge-presentation.pdf)]
 [[poster](http://people.bu.edu/schuye/files/barc2016-eldridge-poster.pdf)]
 
-* J. Appavoo, A. Waterland, K. Zhao, S. Eldridge, A. Joshi, and M. Seltzer,
+* Jonathan Appavoo, Amos Waterland, Schuyler Eldridge, Katherine Zhao, Ajay Joshi, Steve Homer, and Margo Seltzer,
 _Programmable Smart Machines: A Hybrid Neuromorphic Approach to General Purpose Computation_,
 Workshop on Neuromorphic Architectures (NeuroArch) at 41st International Symposium on Computer Architecture (ISCA) 2014. [[paper](http://people.bu.edu/schuye/files/appavoo-neuroarch-2014.pdf)]
 
-* S. Eldridge, F. Raudies, and A. Joshi,
+* Schuyler Eldridge, Florian Raudies, and Ajay Joshi,
 _Approximate Computation using Neuralized FPU_,
 Brain-Inspired Computing (BIC) Workshop at 40th International Symposium on Computer Architecture (ISCA) 2013. [[paper](http://people.bu.edu/schuye/files/approx-fpu-bic2013.pdf)]
 
@@ -100,4 +100,4 @@ Brain-Inspired Computing (BIC) Workshop at 40th International Symposium on Compu
 * Schuyler Eldridge, _Neural Network Computing Using On-chip Accelerators, Ph. D. Thesis, Boston University, 2016. [[thesis](https://open.bu.edu/handle/2144/19511)].
 
 #### Patents and Patent Applications
-* V. Gopal, J. D. Guilford, S. Eldridge, G. M. Wolrich, E. Ozturk, W. K. Feghali, _Digest generation_, US Patent Application 13/995,236, 2011. [[patent](https://patents.google.com/patent/US9292548B2/en)]
+* Vinodh Gopal, James D. Guilford, Schuyler Eldridge, Gilbert M. Wolrich, Erdinc Ozturk, and Wajdi K. Feghali, _Digest generation_, US Patent Application 13/995,236, 2011. [[patent](https://patents.google.com/patent/US9292548B2/en)]
