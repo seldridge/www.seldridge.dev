@@ -97,7 +97,7 @@ Brain-Inspired Computing (BIC) Workshop at 40th International Symposium on Compu
 
 #### Theses
 
-* Schuyler Eldridge, _Neural Network Computing Using On-chip Accelerators, Ph. D. Thesis, Boston University, 2016. [[thesis](https://open.bu.edu/handle/2144/19511)].
+* Schuyler Eldridge, _Neural Network Computing Using On-chip Accelerators_, Ph. D. Thesis, Boston University, 2016. [[thesis](https://open.bu.edu/handle/2144/19511)].
 
 #### Patents and Patent Applications
 * Vinodh Gopal, James D. Guilford, Schuyler Eldridge, Gilbert M. Wolrich, Erdinc Ozturk, and Wajdi K. Feghali, _Digest generation_, US Patent Application 13/995,236, 2011. [[patent](https://patents.google.com/patent/US9292548B2/en)]
