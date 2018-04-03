@@ -1,0 +1,3 @@
+[submodule "cv-simple"]
+	path = cv-simple
+	url = https://github.com/seldridge/cv-simple
