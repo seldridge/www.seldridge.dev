@@ -13,4 +13,5 @@ cv-simple/src/tex/cv.tex:
 	git submodule update --init cv-simple
 
 clean:
-	rm -f index.html
+	$(MAKE) -C cv-simple clean
+	rm -f index.html schuyler-eldridge-cv.pdf
