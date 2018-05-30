@@ -34,7 +34,7 @@ Here's a [CV](schuyler-eldridge-cv.pdf).
 ## Publications
 
 #### Conference Publications
-* Schuyler Eldridge, Alper Buyuktosunoglu, and Pradip Bose, _Chiffre: A Configurable Hardware Fault Injection Framework for RISC-V Systems_, in: 2nd Workshop on Computer Architecture Research with RISC-V (CARRV), 2018.
+* Schuyler Eldridge, Alper Buyuktosunoglu, and Pradip Bose, _Chiffre: A Configurable Hardware Fault Injection Framework for RISC-V Systems_, in: 2nd Workshop on Computer Architecture Research with RISC-V (CARRV), 2018. [[paper](https://carrv.github.io/2018/papers/CARRV_2018_paper_2.pdf)]
 
 * Schuyler Eldridge, Vaibhav Verma, Xinfei Guo, Alec Roelke, Karthik Swaminathan, Nandhini Chandramoorthy, Martin Cochet, Alper Buyuktosunoglu, Christos Vezyrtzis, Rajiv Joshi, Matt Ziegler, Mircea Stan, and Pradip Bose, _VELOUR: Very Low Voltage Operation Under Resilience Constraints_, in: 50th GOMACTech Conference, 2018.
 
