@@ -79,7 +79,7 @@ Artificial Life and Robotics, 19:2 (2014).
 #### Workshop Presentations and Posters
 * _Presentation_: Schuyler Eldridge, Ramon Bertran, Alper Buyuktosunoglu, and Pradip Bose, _MicroProbe: An Open Source Microbenchmark Generator Ported to the RISC-V ISA_, in: 7th RISC-V Workshop, 2017. [[presentation](https://content.riscv.org/wp-content/uploads/2017/12/Tue1424-riscv-microprobe-presentation.pdf)] [[video](https://www.youtube.com/watch?v=avXda-Zjro0)]
 
-* _Poster_: Schuyler Eldridge, Thomas Unger, Marcia Sahaya Louis, Margo Seltzer, Jonathan Appavoo, and Ajay Joshi,
+* _Poster_: Schuyler Eldridge, Han Dong, Thomas Unger, Marcia Sahaya Louis, Leila Delshad Tehrani, Jonathan Appavoo, and Ajay Joshi,
 _X-FILES/DANA: RISC-V Hardware/Software for Neural Networks_,
 in: Fourth RISC-V Workshop, 2016.
 [[poster](http://people.bu.edu/schuye/files/riscv2016-eldridge-poster.pdf)]
