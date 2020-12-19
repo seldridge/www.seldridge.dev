@@ -6,12 +6,143 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>index</title>
   <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     span.underline{text-decoration: underline;}
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -21,74 +152,13 @@
 </head>
 <body>
 <h1 id="schuyler-eldridge">Schuyler Eldridge</h1>
-<p>Hardware design is just awful. I’m trying to make it better with new languages and methodologies. I also like to play with RISC-V microprocessors.</p>
+<p>Hardware design is antiquated. I build infrastructure to make it better.</p>
 <p>Here’s a <a href="schuyler-eldridge-cv.pdf">CV</a>.</p>
 <h2 id="contact">Contact</h2>
 <ul>
 <li><a href="mailto:schuyler.eldridge@gmail.com">schuyler.eldridge@gmail.com</a></li>
 <li><a href="https://github.com/seldridge">seldridge@GitHub</a></li>
-<li>seldridge on freenode (#riscv)</li>
-</ul>
-<h2 id="open-source-activities">Open Source Activities</h2>
-<h4 id="maintainer">Maintainer</h4>
-<ul>
-<li><a href="https://github.com/bu-icsg/dana">bu-icsg/dana</a>: A <em>Dynamically Allocated Neural Network Accelerator</em> implemented as a Rocket Custom Coprocessor (RoCC)</li>
-<li><a href="https://github.com/seldridge/verilog">seldridge/verilog</a>: An early attempt at a Verilog library</li>
-<li><a href="https://github.com/seldridge/rocket-rocc-examples">seldridge/rocket-rocc-examples</a>: Small programs to test the functionality of example RoCCs</li>
-<li><a href="https://github.com/ibm/rocc-software">ibm/rocc-software</a>: Helpful headers for communicating with RoCCs (or: “<a href="https://github.com/riscv/riscv-gnu-toolchain/issues/190#issuecomment-264088121">Nothing like trying to write an assembler using pre-processor macros…</a>”)</li>
-<li><a href="https://github.com/ibm/hdl-tools">imb/hdl-tools</a>: A basic set of tools for working with HDLs</li>
-<li><a href="https://github.com/ibm/firrtl-mode">ibm/firrtl-mode</a>: An Emacs major mode for editing FIRRTL files</li>
-<li><a href="https://github.com/ibm/chiffre">ibm/chiffre</a>: A fault injection framework using FIRRTL</li>
-</ul>
-<h4 id="contributor">Contributor</h4>
-<ul>
-<li><a href="https://github.com/freechipsproject/firrtl">freechipsproject/firrtl</a>: Flexible Intermediate Representation for RTL (“LLVM for Hardware”)</li>
-<li><a href="https://github.com/freechipsproject/chisel3">freechipsproject/chisel3</a>: Constructing Hardware in a Scala Embedded Language</li>
-<li><a href="https://github.com/freechipsproject/rocket-chip">freechipsproject/rocket-chip</a>: A Chisel implementation of a RISC-V microprocessor</li>
-<li><a href="https://github.com/riscv/riscv-fesvr">riscv/riscv-fesvr</a>: Front end server for talking to UC Berkeley projects</li>
-</ul>
-<h2 id="publications">Publications</h2>
-<h4 id="conference-publications">Conference Publications</h4>
-<ul>
-<li><p>Schuyler Eldridge, Alper Buyuktosunoglu, and Pradip Bose, <em>Chiffre: A Configurable Hardware Fault Injection Framework for RISC-V Systems</em>, in: 2nd Workshop on Computer Architecture Research with RISC-V (CARRV), 2018. [<a href="https://carrv.github.io/2018/papers/CARRV_2018_paper_2.pdf">paper</a>]</p></li>
-<li><p>Schuyler Eldridge, Vaibhav Verma, Xinfei Guo, Alec Roelke, Karthik Swaminathan, Nandhini Chandramoorthy, Martin Cochet, Alper Buyuktosunoglu, Christos Vezyrtzis, Rajiv Joshi, Matt Ziegler, Mircea Stan, and Pradip Bose, <em>VELOUR: Very Low Voltage Operation Under Resilience Constraints</em>, in: 50th GOMACTech Conference, 2018.</p></li>
-<li><p>Mateja Putic, Swagath Venkataramani, Schuyler Eldridge, Alper Buyuktosunoglu, Pradip Bose, and Mircea Stan, <em>DyHard-DNN: Even More DNN Acceleration with Dynamic Hardware Reconfiguration</em>, in: 55th Design Automation Conference (DAC), 2018.</p></li>
-<li><p>Schuyler Eldridge, Karthik Swaminathan, Nandhini Chandramoorthy, Alper Buyuktosunoglu, Alec Roelke, Vaibhav Verma, Rajiv Joshi, Mircea Stan, and Pradip Bose, <em>A Low Voltage RISC-V Heterogeneous System</em>, in: 1st Workshop on Computer Architecture Research with RISC-V (CARRV), 2017. [<a href="https://carrv.github.io/2017/papers/eldridge-velour-carrv2017.pdf">paper</a>]</p></li>
-<li><p>Leila Delshadtehrani, Jonathan Appavoo, Manuel Egele, Ajay Joshi, and Schuyler Eldridge, <em>Varanus: An Infrastructure for Programmable Hardware Monitoring Units</em>, in: Boston Area Architecture Conference (BARC), 2017.</p></li>
-<li><p>Ramon Bertran, Pradip Bose, David M. Brooks, Jeff Burns, Alper Buyuktosunoglu, Nandhini Chandramoorthy, Eric Cheng, Martin Cochet, Schuyler Eldridge, Daniel Friedman, Hans M. Jacobson, Rajiv V. Joshi, Subhasish Mitra, Robert K. Montoye, Arun Paidimarri, Pritish Parida, Kevin Skadron, Mircea Stan, Karthik Swaminathan, Augusto Vega, Swagath Venkataramani, Christos Vezyrtzis, Gu-Yeon Wei, John-David Wellman, and Matthew M. Ziegler, <em>Very Low Voltage (VLV) Design</em>, in: International Conference on Computer Design (ICCD), 2017. [<a href="https://doi.org/10.1109/ICCD.2017.105">paper</a>]</p></li>
-<li><p>Schuyler Eldridge, Amos Waterland, Margo Seltzer, Jonathan Appavoo, and Ajay Joshi, <em>Towards General-Purpose Neural Network Computing</em>, Parallel Architectures and Compilation Techniques (PACT), 2015. [<a href="http://people.bu.edu/schuye/files/pact2015-eldridge-paper.pdf">paper</a>] [<a href="http://people.bu.edu/schuye/files/pact2015-eldridge-presentation.pdf">presentation</a>]</p></li>
-<li><p>Schuyler Eldridge and Ajay Joshi, <em>Exploiting Hidden Layer Modular Redundancy for Fault-Tolerance in Neural Network Accelerators</em>, Boston Area Architecture Workshop (BARC), 2015. [<a href="http://people.bu.edu/schuye/files/barc2015-eldridge-paper.pdf">paper</a>] [<a href="http://people.bu.edu/schuye/files/barc2015-eldridge-presentation.pdf">presentation</a>]</p></li>
-<li><p>Schuyler Eldridge, Florian Raudies, David Zou, and Ajay Joshi, <em>Neural Network-Based Accelerators for Transcendental Function Approximation</em>, Great Lakes Symposium on VLSI (GLSVLSI), 2014. [<a href="http://people.bu.edu/schuye/files/glsvlsi2014-eldridge.pdf">paper</a>] [<a href="http://people.bu.edu/schuye/files/glsvlsi2014-eldridge-presentation.pdf">presentation</a>]</p></li>
-<li><p>Jonathan Appavoo, Amos Waterland, Schuyler Eldridge, Katherine Zhao, Ajay Joshi, Steve Homer, and Margo Seltzer, <em>Programmable Smart Machines: A Hybrid Neuromorphic Approach to General Purpose Computation</em>, in: Workshop on Neuromorphic Architectures (NeuroArch), 2014. [<a href="http://people.bu.edu/schuye/files/appavoo-neuroarch-2014.pdf">paper</a>]</p></li>
-<li><p>Schuyler Eldridge, Florian Raudies, and Ajay Joshi, <em>Approximate Computation using Neuralized FPU</em>, Brain-Inspired Computing (BIC) Workshop at 40th International Symposium on Computer Architecture (ISCA) 2013. [<a href="http://people.bu.edu/schuye/files/approx-fpu-bic2013.pdf">paper</a>]</p></li>
-</ul>
-<h4 id="demonstrations">Demonstrations</h4>
-<ul>
-<li>Alec Roelke, Schuyler Eldridge, and Mircea Stan, VELOUR: Very Low Voltage Operation Under Resilience Constraints, <em>VELOUR: Very Low Voltage Operation Under Resilience Constraints</em>, in: 3rd Workshop on Cognitive Architectures (CogArch), 2018.</li>
-</ul>
-<h4 id="journal-publications">Journal Publications</h4>
-<ul>
-<li><p>Leila Delshadtehrani, Schuyler Eldridge, Sadullah Canakci, Manuel Egele, and, Ajay Joshi, <em>Nile: A Programmable Monitoring Coprocessor</em>, Computer Architecture Letters, 2018. [<a href="https://doi.org/10.1109/LCA.2017.2784416">paper</a>]</p></li>
-<li><p>Florian Raudies, Schuyler Eldridge, Ajay Joshi, and Massimiliano Versace, <em>Learning to Navigate in a Virtual World Using Optic Flow and Stereo Disparity Signals</em>, Artificial Life and Robotics, 19:2 (2014). [<a href="http://link.springer.com/article/10.1007/s10015-014-0153-1">paper</a>]</p></li>
-</ul>
-<h4 id="workshop-presentations-and-posters">Workshop Presentations and Posters</h4>
-<ul>
-<li><p><em>Presentation</em>: Schuyler Eldridge, Ramon Bertran, Alper Buyuktosunoglu, and Pradip Bose, <em>MicroProbe: An Open Source Microbenchmark Generator Ported to the RISC-V ISA</em>, in: 7th RISC-V Workshop, 2017. [<a href="https://content.riscv.org/wp-content/uploads/2017/12/Tue1424-riscv-microprobe-presentation.pdf">presentation</a>] [<a href="https://www.youtube.com/watch?v=avXda-Zjro0">video</a>]</p></li>
-<li><p><em>Poster</em>: Schuyler Eldridge, Han Dong, Thomas Unger, Marcia Sahaya Louis, Leila Delshad Tehrani, Jonathan Appavoo, and Ajay Joshi, <em>X-FILES/DANA: RISC-V Hardware/Software for Neural Networks</em>, in: Fourth RISC-V Workshop, 2016. [<a href="http://people.bu.edu/schuye/files/riscv2016-eldridge-poster.pdf">poster</a>]</p></li>
-<li><p><em>Poster</em>: Schuyler Eldridge, Marcia Sahaya Louis, Thomas Unger, Jonathan Appavoo, and Ajay Joshi, <em>Learning-on-chip using Fixed Point Arithmetic for Neural Network Accelerators</em>, in: Design Automation Conference (DAC), 2016. [<a href="http://people.bu.edu/schuye/files/dac2016-eldridge-poster.pdf">poster</a>]</p></li>
-<li><p><em>Poster</em>: Schuyler Eldridge, Thomas Unger, Marcia Sahaya Louis, Margo Seltzer, Jonathan Appavoo, and Ajay Joshi, <em>Neural Networks as Function Primitives: Software/Hardware Support with X-FILES/DANA</em>, Boston Area Architecture Workshop (BARC) 2016. [<a href="http://people.bu.edu/schuye/files/barc2016-eldridge-paper.pdf">paper</a>] [<a href="http://people.bu.edu/schuye/files/barc2016-eldridge-presentation.pdf">presentation</a>] [<a href="http://people.bu.edu/schuye/files/barc2016-eldridge-poster.pdf">poster</a>]</p></li>
-</ul>
-<h4 id="technical-reports">Technical Reports</h4>
-<ul>
-<li>Florian Raudies, Schuyler Eldridge, Ajay Joshi, and Massimiliano Versace, <em>Reinforcement Learning of Visual Navigation Using Distances Extracted from Stereo Disparity or Optic Flow</em>, BU/ECE-2013-1, 2013. [<a href="http://people.bu.edu/joshi/files/TechReportNo-ECE-2013-1-LearningVisualNavigation.pdf">tech report</a>]</li>
-</ul>
-<h4 id="theses">Theses</h4>
-<ul>
-<li>Schuyler Eldridge, <em>Neural Network Computing Using On-chip Accelerators</em>, Ph. D. Thesis, Boston University, 2016. [<a href="https://open.bu.edu/handle/2144/19511">thesis</a>].</li>
-</ul>
-<h4 id="patents-and-patent-applications">Patents and Patent Applications</h4>
-<ul>
-<li>Vinodh Gopal, James D. Guilford, Schuyler Eldridge, Gilbert M. Wolrich, Erdinc Ozturk, and Wajdi K. Feghali, <em>Digest generation</em>, US Patent Application 13/995,236, 2011. [<a href="https://patents.google.com/patent/US9292548B2/en">patent</a>]</li>
+<li><a href="https://matrix.to/#/@seldridge:matrix.org">@seldridge:matrix.org</a> on Matrix</li>
 </ul>
 </body>
 </html>
