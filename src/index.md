@@ -2,9 +2,7 @@
 title: Schuyler Eldridge
 ---
 
-Hardware design is antiquated.
-
-I build languages,[^github/chipsalliance/chisel3] compilers,[^github/chipsalliance/firrtl] and infrastructure[^github/llvm/circt] to make it better.
+I build compilers[^github/llvm/circt][^github/chipsalliance/firrtl] and languages[^github/chipsalliance/chisel3] to make hardware design better.
 
 [^github/chipsalliance/chisel3]: [github.com/chipsalliance/chisel3](https://github.com/chipsalliance/chisel3)
 [^github/chipsalliance/firrtl]: [github.com/chipsalliance/firrtl](https://github.com/chipsalliance/firrtl)
