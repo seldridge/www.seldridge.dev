@@ -21,7 +21,7 @@
       padding-top: 50px;
       padding-bottom: 50px;
       hyphens: auto;
-      word-wrap: break-word;
+      overflow-wrap: break-word;
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
@@ -92,6 +92,7 @@
     pre code {
       padding: 0;
       overflow: visible;
+      overflow-wrap: normal;
     }
     .sourceCode {
      background-color: transparent;
@@ -144,31 +145,44 @@
     ul.task-list{list-style: none;}
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/style.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Schuyler Eldridge</h1>
 </header>
-<p>I build compilers<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> and languages<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> to make hardware design better.</p>
+<p>I build compilers<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a><a href="#fn2" class="footnote-ref"
+id="fnref2" role="doc-noteref"><sup>2</sup></a> and languages<a
+href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a> to make hardware design better.</p>
 <p>Here’s a <a href="schuyler-eldridge-cv.pdf">CV</a>.</p>
 <h3 id="contact">Contact</h3>
 <ul>
-<li><a href="mailto:schuyler.eldridge@gmail.com">schuyler.eldridge@gmail.com</a></li>
+<li><a
+href="mailto:schuyler.eldridge@gmail.com">schuyler.eldridge@gmail.com</a></li>
 <li><a href="https://github.com/seldridge">seldridge@github.com</a></li>
-<li><a href="https://matrix.to/#/@seldridge:matrix.org">@seldridge:matrix.org</a></li>
+<li><a
+href="https://matrix.to/#/@seldridge:matrix.org">@seldridge:matrix.org</a></li>
 </ul>
-<section class="footnotes" role="doc-endnotes">
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p><a href="https://github.com/llvm/circt">github.com/llvm/circt</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p><a href="https://github.com/chipsalliance/firrtl">github.com/chipsalliance/firrtl</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p><a href="https://github.com/chipsalliance/chisel3">github.com/chipsalliance/chisel3</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1" role="doc-endnote"><p><a
+href="https://github.com/llvm/circt">github.com/llvm/circt</a><a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><a
+href="https://github.com/chipsalliance/firrtl">github.com/chipsalliance/firrtl</a><a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p><a
+href="https://github.com/chipsalliance/chisel3">github.com/chipsalliance/chisel3</a><a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </body>
