@@ -8,7 +8,7 @@ I build compilers[^github/llvm/circt][^github/chipsalliance/firrtl] and language
 [^github/chipsalliance/firrtl]: [github.com/chipsalliance/firrtl](https://github.com/chipsalliance/firrtl)
 [^github/llvm/circt]: [github.com/llvm/circt](https://github.com/llvm/circt)
 
-Here's a [CV](schuyler-eldridge-cv.pdf).
+Here's a [CV](https://github.com/seldridge/cv-simple/releases/latest/download/schuyler-eldridge-cv.pdf).
 
 ### Contact
 
