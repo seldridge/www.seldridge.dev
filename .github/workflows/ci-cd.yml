@@ -32,4 +32,6 @@ jobs:
       - name: "Deploy the Website"
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
+          git config --global user.email "schuyler.eldridge@gmail.com"
+          git config --global user.name "Schuyler Eldridge"
           make deploy
