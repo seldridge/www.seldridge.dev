@@ -6,9 +6,9 @@ all: build/index.html
 clean:
 	rm -rf build/
 
+# This assumes that the branch `deploy` doesn't already exist.  This is true of
+# CI environments, but may not be true of a local checkout.
 deploy: all
-	git fetch origin deploy
-	git branch -D deploy
 	git checkout --orphan deploy
 	git rm -rf .
 	mv build/* .
