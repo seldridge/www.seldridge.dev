@@ -1,0 +1,34 @@
+name: "Continuous Integration and Deployment"
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+env:
+  pandoc-version: 3.9
+  pandoc-crossref-version: v0.3.23a
+  pandoc-install-dir: /opt/pandoc
+
+jobs:
+  build:
+    runs-on: ubuntu-26.04
+    permissions:
+      contents: write
+    steps:
+      - name: "Install pandoc ${{ env.pandoc-version }}, pandoc-crossref ${{ env.pandoc-crossref-version }}"
+        shell: bash
+        run: |
+          mkdir -p ${{ env.pandoc-install-dir }}/bin
+          wget https://github.com/jgm/pandoc/releases/download/${{ env.pandoc-version }}/pandoc-${{ env.pandoc-version }}-linux-amd64.tar.gz -O - | tar -zx -C ${{ env.pandoc-install-dir }}/bin --strip-components 2
+          wget https://github.com/lierdakil/pandoc-crossref/releases/download/${{ env.pandoc-crossref-version }}/pandoc-crossref-Linux-X64.tar.xz -O - | tar -Jx -C ${{ env.pandoc-install-dir }}/bin
+          echo "${{ env.pandoc-install-dir }}/bin" >> $GITHUB_PATH
+
+      - name: "Build the Website"
+        run: |
+          make
+      - name: "Deploy the Website"
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          make deploy
