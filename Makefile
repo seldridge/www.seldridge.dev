@@ -7,6 +7,7 @@ clean:
 	rm -rf build/
 
 deploy: all
+	git fetch origin deploy
 	git branch -D deploy
 	git checkout --orphan deploy
 	git rm -rf .
