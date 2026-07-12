@@ -1,4 +1,4 @@
-.PHONY: all clean deploy
+.PHONY: all clean deploy host
 .PRECIOUS: build/%
 
 all: build/index.html
@@ -16,7 +16,11 @@ deploy: all
 	git commit -m "Automated deployment"
 	git push --force origin deploy
 
-build/%.html: src/%.md src/header.html build/style.css build/CNAME build/redirect.html | build/
+# Start a local webserver on port 8000 to host the website.
+host: all
+	python -m http.server 8000 -d build
+
+build/%.html: src/%.md src/header.html build/style.css build/CNAME build/redirect.html
 	pandoc -H src/header.html -s -M document-css=true -o $@ $<
 
 build/%: src/% | build/
