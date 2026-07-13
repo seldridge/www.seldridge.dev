@@ -1,7 +1,7 @@
 .PHONY: all clean deploy host
 .PRECIOUS: build/%
 
-all: build/index.html
+all: $(patsubst src/%.md,build/%.html,$(shell find src -type f -name '*.md'))
 
 clean:
 	rm -rf build/
@@ -20,8 +20,8 @@ deploy: all
 host: all
 	python -m http.server 8000 -d build
 
-build/%.html: src/%.md src/header.html build/style.css build/CNAME build/redirect.html
-	pandoc -H src/header.html -s -M document-css=true -o $@ $<
+build/%.html: src/%.md src/header.html build/style.css build/CNAME build/redirect.html scripts/briefs.lua
+	pandoc -H src/header.html -s -M document-css=true --lua-filter scripts/briefs.lua -o $@ $<
 
 build/%: src/% | build/
 	cp $< $@

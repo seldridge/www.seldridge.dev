@@ -9,6 +9,8 @@ I build compilers[^github/llvm/circt] and languages[^github/chipsalliance/chisel
 
 Here's a [CV](https://github.com/seldridge/cv-simple/releases/latest/download/schuyler-eldridge-cv.pdf).
 
+{{briefs}}
+
 ### Contact
 
 - [schuyler.eldridge@gmail.com](mailto:schuyler.eldridge@gmail.com)
